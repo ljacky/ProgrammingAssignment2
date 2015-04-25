@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+##  short comment describing this function makeCacheMatrix
 # 1 clear out inv variable inv
 # 2 define function which stores the matrix in set
 # 3 define get function which retrives the original matrix
@@ -27,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## short comment describing cacheSolve
 # checks to see if matrix exists
 # returns cached inverse matrix if it exists
 
