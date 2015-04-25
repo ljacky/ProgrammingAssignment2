@@ -51,12 +51,13 @@ cacheSolve <- function(x, ...) {
 
 
 
-matrix(rnorm(10000), ncol=100, nrow=100)->test2
-makeCacheMatrix(test2)
-cacheSolve(makeCacheMatrix(test2))
-cacheSolve(makeCacheMatrix(test2))->test3
-#checks if matrix * its inverse is equal to the identity matrix
-sapply(test3%*%test2,round, digits=4)==diag(nrow=nrow(test2),ncol=ncol(test2))
+##testing creates matrix and test results 
+#matrix(rnorm(10000), ncol=100, nrow=100)->test2
+#makeCacheMatrix(test2)
+#cacheSolve(makeCacheMatrix(test2))
+#cacheSolve(makeCacheMatrix(test2))->test3
+##checks if matrix * its inverse is equal to the identity matrix
+#sapply(test3%*%test2,round, digits=4)==diag(nrow=nrow(test2),ncol=ncol(test2))
 
 
 
